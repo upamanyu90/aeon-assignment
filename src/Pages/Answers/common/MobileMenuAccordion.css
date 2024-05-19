@@ -1,0 +1,33 @@
+.accordion-parent-container {
+  font-family: Arial, sans-serif;
+  color: #0504046e;
+  font-weight: 600;
+  width: 100%;
+  .accordion-header {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #3c383824;
+  }
+  .accordion-content {
+    transition: max-height 0.5s ease-in-out;
+    animation: dropDown 0.5s ease-in-out forwards;
+    display: flex;
+    flex-direction: column;
+  }
+  .open-header-label {
+    color: #2775DE
+  }
+}
+/*#2775DE*/
+@keyframes dropDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

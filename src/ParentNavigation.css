@@ -5,6 +5,7 @@
     justify-content: start; /* Aligns links to the start of the nav bar */
     align-items: center; /* Center alignment of the links vertically */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    overflow-x: auto;
 }
 
 .parent-navbar a {

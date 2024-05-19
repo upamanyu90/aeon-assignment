@@ -9,10 +9,12 @@
     width: 60%;
     padding: 10px 20px; /* Padding around the nav elements */
     display: flex; /* Display links in a row */
+    flex-direction: row;
     align-items: center; /* Vertically center align the links */
     justify-content: space-around; /* Evenly distribute space between links */
     font-family: Arial, sans-serif; /* Font styling */
 }
+
 
 .navbar a {
     color: #0504046e; /* Dark gray color for text */

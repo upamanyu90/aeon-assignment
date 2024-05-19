@@ -1,0 +1,43 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar {
+    width: 60%;
+    padding: 10px 20px; /* Padding around the nav elements */
+    display: flex; /* Display links in a row */
+    flex-direction: row;
+    align-items: center; /* Vertically center align the links */
+    justify-content: space-around; /* Evenly distribute space between links */
+    font-family: Arial, sans-serif; /* Font styling */
+}
+
+.navbar a {
+    color: #0504046e; /* Dark gray color for text */
+    text-decoration: none; /* No underline for links */
+    font-size: 16px; /* Font size for readability */
+    font-weight: 600;
+    padding: 8px 16px; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners for aesthetic */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.navbar a:hover, .navbar a:focus {
+    background-color: #ddd; /* Light gray background on hover/focus */
+    color: #0504046e; /* Black color for text on hover/focus */
+}
+
+.navbar-search {
+    margin-right: 10px;
+    background-color: #F2F2F2;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    padding-left: 2px;
+    margin-top: 6px;
+    width: 15%;
+}
+

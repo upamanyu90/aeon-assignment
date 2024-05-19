@@ -1,0 +1,44 @@
+/* AddTwoNumbers.css */
+.add-container {
+    background-color: #2c3e50; /* Dark blue background */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Padding around the content */
+    display: flex; /* Using flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    gap: 10px; /* Space between each item */
+    height: 100vh;
+    justify-content: center;
+}
+
+.add-container input, .add-container button {
+    padding: 8px 12px; /* Padding inside input fields and buttons */
+    font-size: 16px; /* Readable font size */
+    margin: 5px; /* Margin around elements for spacing */
+    width: 200px; /* Fixed width */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    outline: none; /* Remove focus outline */
+}
+
+.add-container input:focus {
+    box-shadow: 0 0 0 2px #3498db; /* Blue glow effect on focus */
+}
+
+.add-container button {
+    color: white; /* White text */
+    background-color: #34495e; /* Lighter blue for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.add-container button:hover {
+    background-color: #1abc9c; /* Change color on hover */
+}
+
+/* Additional styles to place buttons side by side */
+.buttons-row {
+    display: flex; /* Flex container for buttons */
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 10px; /* Space between buttons */
+}

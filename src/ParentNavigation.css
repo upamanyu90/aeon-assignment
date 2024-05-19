@@ -1,0 +1,31 @@
+.parent-navbar {
+    background-color: #2c3e50; /* Dark shade of blue */
+    padding: 10px 20px; /* Padding around the nav bar */
+    display: flex; /* Aligns the links in a row */
+    justify-content: start; /* Aligns links to the start of the nav bar */
+    align-items: center; /* Center alignment of the links vertically */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.parent-navbar a {
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 16px; /* Sets a suitable font size */
+    font-weight: 500; /* Medium font weight */
+    margin-right: 20px; /* Space between the links */
+    padding: 8px 16px; /* Padding inside the links for better click area */
+    border-radius: 4px; /* Rounded corners for the links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.parent-navbar a:hover, .parent-navbar a:focus {
+    background-color: #34495e; /* Slightly lighter blue on hover/focus */
+    color: #ecf0f1; /* Light grey text on hover/focus for better visibility */
+}
+
+.parent-navbar a.active {
+    background-color: #1abc9c; /* Mint green background for active link */
+    color: #2c3e50; /* Dark blue text for contrast */
+    font-weight: bold; /* Bolder font weight for prominence */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Deeper shadow for depth */
+}

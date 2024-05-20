@@ -10,4 +10,6 @@ Please follow the below steps to run the application.
 
 On the home page of the application you can select the assignment to review and assess.
 
+For the navigation bar assignment please toggle the device mode on browser to see the mobile view.
+
 Thank you.
